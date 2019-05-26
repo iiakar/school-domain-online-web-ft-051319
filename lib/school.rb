@@ -16,10 +16,11 @@ def grade(grade)
 end 
 
 def sort
-  @roster.each do |grade, name|  
-  name.sort!
- end 
-  end 
+sorted_roster = {}
+ @roster.each do |grade, names|
+   sorted_roster[grade] = names.sort
+ end
+ sorted_roster
 
 
 end
