@@ -1,5 +1,4 @@
 
-
 class School 
 attr_accessor :roster, :name
 
